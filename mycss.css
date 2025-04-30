@@ -1,0 +1,102 @@
+body {
+    background-color: #05141b;
+}
+
+.pic1 {
+    height:806px;
+    width: 1900px;
+    
+}
+
+.text1 {
+ color: ghostwhite;
+text-align: center;
+}
+
+.HACHI {
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+h1, h2, h3, p {
+    margin: 10px;
+    color: ghostwhite;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #1f3c4c;
+    margin: 30px 0;
+    width: 80%;
+}
+
+.skills {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.chiikawa {
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.hachi {
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.usagi {
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.first {
+    margin-left: 10px auto;
+}
+
+.contact .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0f2c3f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact .btn:hover {
+    background-color: #1e4b60;
+}
+
+
+.footer {
+    color: #80cbc4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+}
