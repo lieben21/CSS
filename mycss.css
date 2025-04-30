@@ -3,19 +3,22 @@ body {
 }
 
 .pic1 {
-    height:806px;
-    width: 1900px;
+    height:auto ;
+    max-width: 1350px;
+    
     
 }
 
-.text1 {
- color: ghostwhite;
-text-align: center;
+.text1{
+    margin: 10px;
+    color: ghostwhite;
+    text-align: center;
+    font-family: cursive;
 }
 
 .HACHI {
-    height:150px;
-    width: 150px;
+    height:300px;
+    width: 300px;
     border-radius: 50%;
     margin: 20px;
     border: 3px;
@@ -26,7 +29,48 @@ text-align: center;
 h1, h2, h3, p {
     margin: 10px;
     color: ghostwhite;
+    text-align: center;
+    
 }
+
+.sour-gummy {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 50px;
+    color:lightyellow;
+  }
+
+.sour-gummy-anya {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .sour-gummy-anya2 {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .sour-gummy-anya3 {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      color:lightyellow;
+  }
 
 hr {
     border: none;
@@ -41,8 +85,8 @@ hr {
 }
 
 .chiikawa {
-    height:150px;
-    width: 150px;
+    height:250px;
+    width: 250px;
     border-radius: 50%;
     margin: 20px;
     border: 3px;
@@ -51,8 +95,8 @@ hr {
 }
 
 .hachi {
-    height:150px;
-    width: 150px;
+    height:250px;
+    width: 250px;
     border-radius: 50%;
     margin: 20px;
     border: 3px;
@@ -61,8 +105,8 @@ hr {
 }
 
 .usagi {
-    height:150px;
-    width: 150px;
+    height:250px;
+    width: 250px;
     border-radius: 50%;
     margin: 20px;
     border: 3px;
@@ -70,21 +114,25 @@ hr {
     border-color: white;
 }
 
-.first {
-    margin-left: 10px auto;
+.first, .third {
+    margin-right: 450px;
 }
 
-.contact .btn {
+.second {
+    margin-left: 450px;
+}
+
+.btn {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #0f2c3f;
+    background-color: #04243C;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
-.contact .btn:hover {
+.contactmessages .btn:hover {
     background-color: #1e4b60;
 }
 
@@ -95,8 +143,13 @@ hr {
     font-weight: bold;
 }
 
+.infos {
+    text-align: center;
+    margin-top: 40px;
+}
+
 .copyright {
-    font-size: 12px;
+    font-size: 20px;
     color: #999;
     margin-top: 5px;
 }
