@@ -89,7 +89,7 @@ hr {
     height:250px;
     width: 250px;
     border-radius: 50%;
-    margin-left: 400px;
+    margin: 20px;
     border: 3px;
     border-style: solid;
     border-color: white;
@@ -116,11 +116,17 @@ hr {
 }
 
 .first, .third {
-    margin-right: 400px;
+    position: absolute;
+    right: 350px;
+    width: 300px;
+    padding: 10px;
 }
 
 .second {
-    margin-left: 450px;
+    position: absolute;
+    left: 350px;
+    width: 300px;
+    padding: 10px;
 }
 
 .btn {
