@@ -6,12 +6,20 @@ body {
     text-align: center;
 }
 
-.one, .two {
+.one {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.two {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .pic1 {
     height:  408px;
     width: 100%;
