@@ -117,6 +117,7 @@ hr {
 
 .first, .third {
     margin-left: 400px;
+    text-align: center;
 }
 
 .second {
