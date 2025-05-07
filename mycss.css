@@ -52,6 +52,8 @@ h1, h2, h3, p {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+    margin-left: 400px;
+    text-align: center;
   }
 
   .sour-gummy-anya2 {
