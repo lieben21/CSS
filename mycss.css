@@ -116,17 +116,11 @@ hr {
 }
 
 .first, .third {
-    position: absolute;
-    right: 350px;
-    width: 300px;
-    padding: 10px;
+    margin-left: 350px;
 }
 
 .second {
-    position: absolute;
-    left: 350px;
-    width: 300px;
-    padding: 10px;
+    margin-right: 350px;
 }
 
 .btn {
